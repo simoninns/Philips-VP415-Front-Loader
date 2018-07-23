@@ -31,6 +31,71 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:logic_programmable
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
 LIBS:Philips-VP415-Front-Loader-cache
 EELAYER 25 0
 EELAYER END
@@ -708,7 +773,7 @@ U 1 1 5B555688
 P 4500 1900
 F 0 "R101" V 4580 1900 50  0000 C CNN
 F 1 "1R" V 4500 1900 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4430 1900 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4430 1900 50  0001 C CNN
 F 3 "" H 4500 1900 50  0001 C CNN
 	1    4500 1900
 	0    1    1    0   
@@ -721,4 +786,26 @@ Text Notes 900  5200 0    60   ~ 0
 47uF - Panasonic EEEHA1H470XP\n301-08-080
 Text Notes 900  5500 0    60   ~ 0
 4u7F - Panasonic EEE1HA4R7WR\n301-08-022
+$Comp
+L Mounting_Hole MK101
+U 1 1 5B55A1CF
+P 6200 6700
+F 0 "MK101" H 6200 6900 50  0000 C CNN
+F 1 "Mounting_Hole" H 6200 6825 50  0000 C CNN
+F 2 "Module-P-Mount:Module-P-Mount" H 6200 6700 50  0001 C CNN
+F 3 "" H 6200 6700 50  0001 C CNN
+	1    6200 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole MK102
+U 1 1 5B55A2CA
+P 6200 7100
+F 0 "MK102" H 6200 7300 50  0000 C CNN
+F 1 "Mounting_Hole" H 6200 7225 50  0000 C CNN
+F 2 "Module-P-Mount:Module-P-Mount" H 6200 7100 50  0001 C CNN
+F 3 "" H 6200 7100 50  0001 C CNN
+	1    6200 7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
