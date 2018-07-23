@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name D2HW-BR221DR)(type KiCad)(uri "$(KIPRJMOD)/D2HW-BR221DR.pretty")(options "")(descr ""))
+)
