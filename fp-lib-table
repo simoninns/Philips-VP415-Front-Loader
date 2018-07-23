@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name D2HW-BR221DR)(type KiCad)(uri "$(KIPRJMOD)/D2HW-BR221DR.pretty")(options "")(descr ""))
   (lib (name Module-P-Mount)(type KiCad)(uri "$(KIPRJMOD)/Module-P-Mount.pretty")(options "")(descr ""))
+  (lib (name Lumberg-25-MSF)(type KiCad)(uri "$(KIPRJMOD)/Lumberg-25-MSF.pretty")(options "")(descr ""))
 )
