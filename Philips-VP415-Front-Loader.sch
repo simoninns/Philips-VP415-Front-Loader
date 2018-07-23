@@ -117,7 +117,7 @@ U 1 1 5AAA58C2
 P 1700 1700
 F 0 "J101" H 1700 2100 50  0000 C CNN
 F 1 "P1 Connector" H 1700 1200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1700 1700 50  0001 C CNN
+F 2 "Lumberg-25-MSF:Lumberg-25-MSF-08" H 1700 1700 50  0001 C CNN
 F 3 "" H 1700 1700 50  0001 C CNN
 	1    1700 1700
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 1 1 5AAA5921
 P 1700 2800
 F 0 "J102" H 1700 3000 50  0000 C CNN
 F 1 "P2 Connector" H 1700 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1700 2800 50  0001 C CNN
+F 2 "Lumberg-25-MSF:Lumberg-25-MSF-03" H 1700 2800 50  0001 C CNN
 F 3 "" H 1700 2800 50  0001 C CNN
 	1    1700 2800
 	1    0    0    -1  
