@@ -1,4 +1,4 @@
-update=23/07/2018 11:32:48
+update=23/07/2018 16:13:31
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -168,3 +158,13 @@ LibName126=C:/Program Files/KiCad/share/kicad/library/Xicor
 LibName127=C:/Program Files/KiCad/share/kicad/library/xilinx
 LibName128=C:/Program Files/KiCad/share/kicad/library/zetex
 LibName129=C:/Program Files/KiCad/share/kicad/library/Zilog
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=PDF/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
