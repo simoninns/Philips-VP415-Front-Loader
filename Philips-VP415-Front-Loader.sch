@@ -590,50 +590,6 @@ NoConn ~ 1900 1700
 NoConn ~ 1900 2800
 NoConn ~ 3300 3450
 NoConn ~ 3300 4100
-$Comp
-L BD139 Q104
-U 1 1 5AAAE1CF
-P 8200 5500
-F 0 "Q104" H 8400 5575 50  0000 L CNN
-F 1 "BD139-10" H 8400 5500 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-126_Vertical" H 8400 5425 50  0001 L CIN
-F 3 "" H 8200 5500 50  0001 L CNN
-	1    8200 5500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BD140 Q105
-U 1 1 5AAAE4D7
-P 8200 4700
-F 0 "Q105" H 8400 4775 50  0000 L CNN
-F 1 "BD140-16" H 8400 4700 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-126_Vertical" H 8400 4625 50  0001 L CIN
-F 3 "" H 8200 4700 50  0001 L CNN
-	1    8200 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L BD140 Q106
-U 1 1 5AAAE5CF
-P 6900 4700
-F 0 "Q106" H 7100 4775 50  0000 L CNN
-F 1 "BD140-16" H 7100 4700 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-126_Vertical" H 7100 4625 50  0001 L CIN
-F 3 "" H 6900 4700 50  0001 L CNN
-	1    6900 4700
-	1    0    0    1   
-$EndComp
-$Comp
-L BD139 Q107
-U 1 1 5AAAE6C7
-P 6900 5500
-F 0 "Q107" H 7100 5575 50  0000 L CNN
-F 1 "BD139-10" H 7100 5500 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-126_Vertical" H 7100 5425 50  0001 L CIN
-F 3 "" H 6900 5500 50  0001 L CNN
-	1    6900 5500
-	1    0    0    -1  
-$EndComp
 Text Notes 1300 2050 0    60   ~ 0
 LMOT-R
 Text Notes 1300 2150 0    60   ~ 0
@@ -660,19 +616,6 @@ Text Notes 1500 2850 0    60   ~ 0
 NC
 Text Notes 1500 1550 0    60   ~ 0
 NC
-$Comp
-L R R101
-U 1 1 5B555688
-P 3850 1550
-F 0 "R101" V 3930 1550 50  0000 C CNN
-F 1 "1R" V 3850 1550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3780 1550 50  0001 C CNN
-F 3 "" H 3850 1550 50  0001 C CNN
-	1    3850 1550
-	0    1    1    0   
-$EndComp
-Text Notes 3700 1450 0    60   ~ 0
-/!\ NFR
 Text Notes 750  6950 0    60   ~ 0
 Resistors 1206 1/2W
 Text Notes 750  7250 0    60   ~ 0
@@ -824,4 +767,61 @@ Text Notes 2850 5350 0    60   ~ 0
 Start-Stop indicates the tray is ready to be loaded\n(or has completed unloading) - when loading the\nstart-stop switch is engaged to start loading. \nLoading stops when the tray-inside switch is\nactivated.
 Text Notes 1100 1000 0    60   ~ 0
 LMOT-R pushes the tray out\nLMOT-L pull the tray in
+$Comp
+L BC337 Q107
+U 1 1 5B934DC8
+P 8200 5500
+F 0 "Q107" H 8400 5575 50  0000 L CNN
+F 1 "BC337-25" H 8400 5500 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8400 5425 50  0001 L CIN
+F 3 "" H 8200 5500 50  0001 L CNN
+	1    8200 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BC327 Q104
+U 1 1 5B934E2B
+P 6900 4700
+F 0 "Q104" H 7100 4775 50  0000 L CNN
+F 1 "BC327-25" H 7100 4700 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7100 4625 50  0001 L CIN
+F 3 "" H 6900 4700 50  0001 L CNN
+	1    6900 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L BC337 Q105
+U 1 1 5B934F6D
+P 6900 5500
+F 0 "Q105" H 7100 5575 50  0000 L CNN
+F 1 "BC337-25" H 7100 5500 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7100 5425 50  0001 L CIN
+F 3 "" H 6900 5500 50  0001 L CNN
+	1    6900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC327 Q106
+U 1 1 5B93526D
+P 8200 4700
+F 0 "Q106" H 8400 4775 50  0000 L CNN
+F 1 "BC327-25" H 8400 4700 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8400 4625 50  0001 L CIN
+F 3 "" H 8200 4700 50  0001 L CNN
+	1    8200 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Polyfuse F101
+U 1 1 5B935666
+P 3850 1550
+F 0 "F101" V 3750 1550 50  0000 C CNN
+F 1 "600mA Polyfuse" V 3950 1550 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD2920" H 3900 1350 50  0001 L CNN
+F 3 "" H 3850 1550 50  0001 C CNN
+	1    3850 1550
+	0    -1   -1   0   
+$EndComp
+Text Notes 3550 950  0    60   ~ 0
+60 VDC - 600mA\nLittelfuse 2920L030DR 
 $EndSCHEMATC
