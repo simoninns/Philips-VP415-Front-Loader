@@ -116,7 +116,7 @@ L Conn_01x08_Male J101
 U 1 1 5AAA58C2
 P 1700 1700
 F 0 "J101" H 1700 2100 50  0000 C CNN
-F 1 "P1 Connector" H 1700 1200 50  0000 C CNN
+F 1 "Drive Processor" H 1700 1200 50  0000 C CNN
 F 2 "Lumberg-25-MSF:Lumberg-25-MSF-08" H 1700 1700 50  0001 C CNN
 F 3 "" H 1700 1700 50  0001 C CNN
 	1    1700 1700
@@ -127,7 +127,7 @@ L Conn_01x03_Male J102
 U 1 1 5AAA5921
 P 1700 2800
 F 0 "J102" H 1700 3000 50  0000 C CNN
-F 1 "P2 Connector" H 1700 2600 50  0000 C CNN
+F 1 "Loader Motor" H 1700 2600 50  0000 C CNN
 F 2 "Lumberg-25-MSF:Lumberg-25-MSF-03" H 1700 2800 50  0001 C CNN
 F 3 "" H 1700 2800 50  0001 C CNN
 	1    1700 2800
@@ -603,21 +603,21 @@ TRAY INSIDE
 Text Notes 4200 4250 0    60   ~ 0
 START STOP SWITCH
 Text Notes 1550 1950 0    60   ~ 0
-TI
+~TI
 Text Notes 1350 1450 0    60   ~ 0
 ~ST~-ST
 Text Notes 1100 1750 0    60   ~ 0
 ~O-RPM~ (NC)
-Text Notes 600  2750 0    60   ~ 0
-FRONT LOADER MOTOR
-Text Notes 600  2950 0    60   ~ 0
-FRONT LOADER MOTOR
+Text Notes 1150 2750 0    60   ~ 0
+Motor +ve
+Text Notes 1150 2950 0    60   ~ 0
+Motor -ve
 Text Notes 1500 2850 0    60   ~ 0
 NC
 Text Notes 1500 1550 0    60   ~ 0
 NC
 Text Notes 750  6950 0    60   ~ 0
-Resistors 1206 1/2W
+All resistors are 1206 1/2W
 Text Notes 750  7250 0    60   ~ 0
 47uF - Panasonic EEEHA1H470XP\n301-08-080
 Text Notes 750  7550 0    60   ~ 0
@@ -766,7 +766,7 @@ Motor Jam\nProtection
 Text Notes 2850 5350 0    60   ~ 0
 Start-Stop indicates the tray is ready to be loaded\n(or has completed unloading) - when loading the\nstart-stop switch is engaged to start loading. \nLoading stops when the tray-inside switch is\nactivated.
 Text Notes 1100 1000 0    60   ~ 0
-LMOT-R pushes the tray out\nLMOT-L pull the tray in
+LMOT-R pushes the tray out\nLMOT-L pulls the tray in
 $Comp
 L BC337 Q107
 U 1 1 5B934DC8
@@ -824,4 +824,6 @@ F 3 "" H 3850 1550 50  0001 C CNN
 $EndComp
 Text Notes 3550 950  0    60   ~ 0
 60 VDC - 600mA\nLittelfuse 2920L030DR 
+Text Notes 8850 5850 0    60   ~ 0
+Note: 750R resistors are in parallel due to\nthe current handling requirements.
 $EndSCHEMATC
